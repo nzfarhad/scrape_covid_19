@@ -1,0 +1,1 @@
+Scrape worldometers.info and CSSE repo for Codiv19 data
