@@ -7,7 +7,7 @@ library(dplyr)
 library(rvest)
 
 
-################# CSSE Data  ###################
+################# CSSE Data Upates once in 24 hours ###################
 
 reshap_csse_data <- function(data, case_death){
   
@@ -101,7 +101,7 @@ write.csv(csse_long_format, "output/CSSE/csse_long_format.csv", row.names = F)
 
 
 
-######################## worldometers.info ####################### 
+######################## worldometers.info - Updates more frequently ####################### 
 
 # scraping function 
 
